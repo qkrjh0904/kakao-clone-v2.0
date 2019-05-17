@@ -8,12 +8,12 @@
         rel="stylesheet" 
         href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
-        crossorigin="anonymous"
-        >
+        crossorigin="anonymous">
     <title>Chats | Kakao Clone</title>
 </head>
 <body>
     <div class="status-bar">
+        <!--이부분은 상단 bar이기 때문에 따로 분류 없이 div로 설정-->
         <div class="status-bar__column">
             <span class="status-bar__clock">15:37</span>
         </div>
@@ -29,20 +29,19 @@
                 <h1 class="header-title">채팅</h1>
             </div>
             <div class="header__header-column">
+                <!--이부분은 왜 span으로 했는지 모르겠음-->
                 <sapn class="header-icons"><i class="fas fa-search"></i></sapn>
                 <sapn class="header-icons"><i class="far fa-comment"></i></sapn>
                 <sapn class="header-icons"><i class="fas fa-cog"></i></sapn>
             </div>
         </header>
         <main class="chats">
-            <ul class="chats__list">
-                <li class="chats__chat chat">
-                    <div class="chat__column">
-                        <img class="chat__avatar" src="./img/img1.PNG" alt="">
+            <ul class="chats__list"><!--채팅의 리스트들-->
+                <li class="chats__chat chat"><!--채팅 리스트들 중 하나-->
+                    <div class="chat__column"><!--사진, 이름, 최근메세지 내용-->
+                        <img class="chat__avatar g-avatar" src="./img/img1.PNG" alt="">
                         <div class="chat__content">
-                            <span class="chat__username">
-                                Lynn
-                            </span>
+                            <span class="chat__username">Lynn</span>
                             <sapn class="chat__preview">Going Home</sapn>
                         </div>
                     </div>
@@ -53,6 +52,7 @@
             </ul>
         </main>
         <nav class="nav">
+            <!--이부분은 왜 list로 만든것일까?-->
             <ul class="nav__list">
                 <li class="nav__list-item">
                     <a href="./friends.html" class="nav__list-link"><i class="far fa-user"></i></a>
