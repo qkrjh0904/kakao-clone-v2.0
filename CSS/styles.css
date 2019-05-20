@@ -1,3 +1,12 @@
 @import "reset.css";
+@import "status-bar.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 
+/*가장 먼저 body의 디폴트값을 지정해준다.*/
+body{
+    background-color: white;
+    padding: 10px 20px;
+    color: #020202;
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
