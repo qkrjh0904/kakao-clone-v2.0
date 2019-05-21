@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
 @import "header.css";
 @import "nav-bar.css";
+@import "friend.css";
 
 *{
     /*padding을 추가해도 box사이즈가 늘어나지 않고 그대로 유지하게 하는것*/
