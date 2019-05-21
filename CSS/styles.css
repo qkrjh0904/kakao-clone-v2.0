@@ -2,6 +2,11 @@
 @import "status-bar.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
 @import "header.css";
+@import "nav-bar.css";
+
+*{
+    box-sizing: border-box;
+}
 
 /*가장 먼저 body의 디폴트값을 지정해준다.*/
 body{

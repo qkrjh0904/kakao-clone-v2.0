@@ -1,0 +1,18 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    background-color: #FCFCFC;
+    padding: 20px 50px;
+    left: 0px;
+    bottom: 0px;
+    border-top: 1px solid #F7F7F7;
+}
+
+.nav i{
+    font-size: 20px;
+}
+
+.nav .nav__list{
+    display: flex;
+    justify-content: space-between;
+}
