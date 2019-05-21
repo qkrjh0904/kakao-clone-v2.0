@@ -2,6 +2,10 @@
     reset CSS 를 import하는 이유
     모든 margin, padding, border등의 default 값들을 0으로 초기화시켜준다.
     모든 font size를 동일하게 만들어주기도 한다. 하지만 브라우저에 따라 크기가 조금 다를 수 있음.
+
+    reset.css를 쓰고싶지 않다면, normalize.css를 쓸 수도 있다.
+    normailze는 기본적으로 브라우저의 style을 따르고 있지만 기준을 만들어준다.
+    
 */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
