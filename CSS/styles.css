@@ -4,6 +4,8 @@
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
+@import "friends.css";
+
 
 *{
     /*padding을 추가해도 box사이즈가 늘어나지 않고 그대로 유지하게 하는것*/
