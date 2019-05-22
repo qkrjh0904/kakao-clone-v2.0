@@ -9,7 +9,7 @@
 
 .chat-screen{
     background-image: url("../img/chatBC.png");
-    min-height: 100vh;
+    min-height: 500vh;
     /*view point height*/
 }
 
@@ -71,7 +71,6 @@
 .message{
     display: flex;
     align-items: flex-start;
-    width: 50%;
     margin-bottom: 20px;
 }
 
@@ -94,16 +93,16 @@
 }
 
 .message .message__bubble{
-    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, 
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 20px;
     font-weight: 400;
+    display: block;
 }
 
 .incoming-message .message__author{
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     display: block;
     font-weight: 600;
     font-size: 12px;
