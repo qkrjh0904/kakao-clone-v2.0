@@ -1,4 +1,5 @@
 .header-wrapper{
+    z-index: 2;
     background-color: white;
     padding-top: 10px;
     position: fixed;
@@ -140,10 +141,22 @@
     align-self: flex-end;
 }
 
+@keyframes spin{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateY(1turn);
+    }
+}
+
 .incoming-message img{
     width: 30px;
     border-radius: 15px;
     margin-right: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, 
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+    animation: spin 2s linear infinite;
 }
 
 .message .message__bubble{
