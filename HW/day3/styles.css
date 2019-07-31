@@ -1,0 +1,45 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 1500px;
+}
+
+.box1{
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #FF7979;
+    position: fixed;
+    z-index: 1;
+}
+.box2{
+    font-size: 30px;
+    margin-top: 100px;
+    height: 500px;
+    background-color: #7ED6DF;
+    display: flex;
+}
+.inside_box{
+    height: 490px;
+    width: 30%;
+    background-color: #FFCC00;
+    border: grey solid 5px;
+    position: absolute;
+    right: 0;
+}
+.box3{
+    background-color: #BADC58;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right: 27%;
+    top: 80px;
+    z-index:2;
+}
+
+h1{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    color: white;
+}
