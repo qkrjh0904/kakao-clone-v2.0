@@ -1,0 +1,33 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.blue_box{
+    background-color: #1E90FF;
+    height: 700px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pink_box{
+    background-color: #FF6B81;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grey_box{
+    background-color: #D8D8D8;
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+
+#grey_box2:hover{
+    background-color: red;
+}
