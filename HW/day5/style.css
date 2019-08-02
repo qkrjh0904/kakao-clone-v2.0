@@ -1,0 +1,47 @@
+body{
+    height: 100%;
+}
+.hw{
+    margin: 50px;
+    width: 500px;
+}
+.btn{
+    background-color: #7F8C8D;
+    color: white;
+    width: 280px;
+    height: 70px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.btn:hover{
+    background-color: #95A5A6;
+    box-shadow: 0px 5px 10px 3px grey;
+    
+}
+
+.img{
+    width: 280px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img :hover{
+    border: 3px solid;
+    animation: 1.5s scale-and-rotate-square ease-in-out;
+    -webkit-animation-fill-mode:both
+}
+
+@keyframes scale-and-rotate-square{
+    0%{
+        transform: none;
+    }
+    100%{
+        transform: rotate(0.375turn) scale(.75, .75);
+    }
+}
